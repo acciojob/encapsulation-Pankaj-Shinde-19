@@ -8,9 +8,9 @@ public class Main {
         // obj.name = "John"; // Error: The field RWOnly.name is not visible
 
         // Using the setter function to set the value of the name
-        obj.set_name("John");
+        obj.setName("John");
 
         // Using the getter function to access the value of the name
-        System.out.println("Name: " + obj.get_name());
+        System.out.println("Name: " + obj.getName());
     }
 }
